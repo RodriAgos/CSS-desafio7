@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;    
+    flex: 0 0 50vh;
+    border: #BEC1BB 1px solid;
+    
+}
+
+.barraestado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 2rem;
+    margin: 1rem;
+}
+
+.fotoperfil{
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    color:#BEC1BB;
+}
+
+.nuevochat{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem;
+}
+
+button{
+    border: none;
+    width: 13rem;
+    height: 3.5rem;
+    padding: 0.5rem;
+    background-color: #a491d2;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.ventanachat{   
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 1.5rem;
+    margin: 1rem;
+}
+
+.fotocontacto{
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.seccion2{
+    border: #BEC1BB 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+}   
+
+.elementosprincipales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    h1{font-size: 60px;}
+    p{font-size: 20px;}    
+}
+
+.elementosprincipales img{
+    height: 20rem;
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 15%;
+}
